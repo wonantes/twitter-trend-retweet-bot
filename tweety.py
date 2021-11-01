@@ -1,10 +1,10 @@
 import tweepy
 from time import sleep
 
-consumer_key = 'key from your acc'
-consumer_secret = 'key from your acc'
-access_token = 'key from your acc'
-access_token_secret = 'key from your acc'
+consumer_key = 'md1khFqAQIyZdnnOrvB9uMJLo'
+consumer_secret = 't9L70E0l5eJOrZhqcs6MsgBsm91HCLoWgGERQVzDkuIe4omE83'
+access_token = '1452221538791530496-813IdXiCYcyanAy9iAdQVTcCw2t9c3'
+access_token_secret = 'wKqJyt7EuhjpnOnoI8FGdzoLcxYrD9KiWfDN2wSdlUi6X'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
